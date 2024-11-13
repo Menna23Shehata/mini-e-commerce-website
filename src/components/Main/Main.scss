@@ -1,0 +1,32 @@
+@import url(../../utils/_colors.scss);
+
+.card{
+  &:hover {
+    box-shadow: 0px 0px 11px 0px #65451fbd;
+      .card-img-top {
+        opacity: 1;
+        filter: grayscale(0);
+        transform: scale(1.02);
+      }
+    }
+  transition: all 0.6s;
+
+  .card-img-top {  
+    opacity: 0.9;
+    filter: grayscale(0.4);
+    transition: all 0.53s;
+  }
+  .card-body {
+    color: $brown;
+    padding-bottom: 0;
+  }
+
+  .card-title {
+  color: $darker_brown;
+}
+
+  .rating-color {
+    color: gold;
+  }
+}
+

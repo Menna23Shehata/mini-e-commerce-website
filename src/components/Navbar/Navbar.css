@@ -1,0 +1,33 @@
+@import url(../../utils/_colors.scss);
+.navbar {
+  background-color: rgba(175, 152, 108, 0.8117647059);
+  letter-spacing: 1.37px;
+  box-shadow: 0px 6px 16px -4px rgba(175, 152, 108, 0.8588235294);
+}
+.navbar .navbar-brand .nav-link.show,
+.navbar .navbar-brand .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .nav-link.active {
+  color: wheat;
+}
+.nav-link{
+  transition: all 0.2s;
+}
+.nav-link:hover {
+  color: wheat;
+  box-shadow: 0px 6px 16px -4px #af986cdb;
+}
+.navbar .navbar-brand {
+  font-size: 1.37rem;
+}
+
+.tinos-regular,
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-weight: 700;
+} /*# sourceMappingURL=Navbar.css.map */
