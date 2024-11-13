@@ -1,3 +1,9 @@
+Live DEMO : https://minishoppingwebsite.netlify.app
+
+This application shows the product list from an API using reactjs
+The technologes used in this app are HTML, CSS, SASS, Bootstrap, JavaScript and Reactjs
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
