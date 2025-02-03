@@ -33,9 +33,9 @@ export default function Main() {
                         {product.map((p) => {
                             return (
                                 <div className="col-lg-3 col-md-4 d-flex align-items-stretch" key={p.id}>
-                                    <div className="card text-center overflow-hidden border-0">
+                                    <div className="flex caard justify-content-evenly text-center overflow-hidden border-0">
                                         <img src={p.image} className="card-img-top w-100 p-3" alt="product image" />
-                                        <div className="card-body">
+                                        <div>
                                             <h5 className="card-title">{(p.title).slice(0, 20)}</h5>
                                             <p className="card-text">{(p.description).slice(0, 100)}</p>
                                             <p className='card-text float-start'>{p.price} $</p>
